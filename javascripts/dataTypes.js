@@ -45,3 +45,10 @@ let snglStr = 'This is a string'
 let dblStr = "This is a string"
 console.log(snglStr + " = " + dblStr);
 console.log(`Using interpolation this time.. ${snglStr} = ${dblStr}`)
+
+/** boolean
+ *  logical boolean has only 2 values true or false
+ *  You can get the result of a comparison as a boolean and save it
+ */
+let result = 4 > 1
+console.out(`is 4 greater than 1? result`);
