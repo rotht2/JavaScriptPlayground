@@ -86,3 +86,17 @@ console.log("-------------------------------------------------------------------
  *  
  *  TODO complete this section after the objects training section.
  */
+
+ /** Typeof operator
+  *  There is a typeof operator that will return the type of the variable in question.
+  *  There is also one nuance with this operator and that is that null returns that it is an object
+  *  this is a known defect of the typeof operator and has not been changed to keep backwards compatibility
+  */
+console.log(`Type of null = ${typeof null}`);
+console.log(`Type of Math = ${typeof Math}`); // should be an object
+console.log(`Type of 1 = ${typeof 1}`);
+console.log(`Type of false = ${typeof false}`);
+console.log(`Type of "foobar" = ${typeof "foobar"}`);
+console.log(`Type of undefined = ${typeof undefined}`);
+console.log(`Type of Symbol('id') = ${typeof Symbol('id')}`);
+console.log("-----------------------------------------------------------------------");
