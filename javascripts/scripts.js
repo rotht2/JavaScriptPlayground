@@ -1,4 +1,5 @@
-console.log("this is a js file console.log output..");
+// Modern JavaScript requires the following directive "use strict"
+"use script";
 
 /** JavaScript traditionall requires a semi colon at the end of a line.
  *  Now JavaScript can insert a semicolon on the fly when they are needed
