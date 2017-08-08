@@ -47,7 +47,7 @@ console.log(snglStr + " = " + dblStr);
 console.log(`Using interpolation this time.. ${snglStr} = ${dblStr}`);
 console.log("-----------------------------------------------------------------------");
 
-/** boolean
+/** Boolean
  *  logical boolean has only 2 values true or false
  *  You can get the result of a comparison as a boolean and save it
  */
@@ -61,3 +61,28 @@ console.log("-------------------------------------------------------------------
 let thisIsNothing = null
 console.log(`null representation: ${thisIsNothing}`);
 console.log("-----------------------------------------------------------------------");
+
+/** Undefined
+ *  This is a type that represents a variable that has yet to be defined, meaning it has no value
+ *  It is possible to assign undefined to a variable
+ */
+let undefinedVariable;
+console.log(`undefinedVariable = ${undefinedVariable}`);
+undefinedVariable = "defined variable";
+console.log(`undefinedVariable = ${undefinedVariable}`);
+undefinedVariable = undefined;
+console.log(`undefinedVariable = ${undefinedVariable}`);
+console.log("-----------------------------------------------------------------------");
+
+/** Object
+ *  Object is a special data type, it is special because he is not a primitive datatype like the others
+ *  that have been covered so far. 
+ * 
+ *  TODO learn more about primitives further in the training course
+ */
+
+/** Symbols
+ *  Another special data type are symbols. They are special because they are a way to IDENTIFY objects
+ *  
+ *  TODO complete this section after the objects training section.
+ */
