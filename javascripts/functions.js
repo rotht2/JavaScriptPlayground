@@ -61,3 +61,7 @@ isGreaterThan5(4, yes, no);
  *  An arrow can be used to create a function expression in a short hand notation.
  */
 let sum = (a,b) => a + b; 
+
+function sum(a,b){
+    return a + b;
+}
