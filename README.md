@@ -10,3 +10,6 @@ After I have completed adding a bunch of notes I would like to venture down the 
 
 # P.S.
 This also is allowing me to brush up on my Git skills.. I guess you could say that I am trying to Git good 
+
+# TDD
+Hitting the tdd section of the training now which is great! Starting down the path to writing unit tests with mocha! 
